@@ -18,8 +18,16 @@ function clearAll() {
     play.value = result;
 }
 
+// test. addEventListener("mouseover", function( event ) {
+//   alert("mouse over test!")
+//   , false);
 
 
+// let solo = domument.getElementsByClassName("sol")[2]
+// solo.addEventListener("mousepver", function (e) {
+//   alert("yea")
+//   console.log("solo")
+// })
 
 // var buttons = document.getElementsByClassName("button");
 // var arr = [...buttons];
@@ -59,7 +67,9 @@ arr.forEach((element, index) => {
        for (let index = 0; index < sol.length; index++) {
         sol[index].style.color = " black "
         sol[index].style.backgroundColor = "white"
-         
+         sol.addEventListener("onmouseover", function(){
+           sol[index].style.backgroundColor = "green"
+         } )
        }
        document.getElementById("tri").style.backgroundColor = " hsl(224, 36%, 15%)"
        document.getElementsByClassName("sol")[3].style.backgroundColor = "hsl(225, 21%, 49%)"
