@@ -1,0 +1,175 @@
+body {
+    background-color: hsl(222, 26%, 31%);
+}
+
+.container {
+    width: 350px;
+    height: 75vh;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.theme {
+    color: white;
+    font-size: 100%;
+    width: 50px;
+}
+
+.calc {
+    color: white;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    height: 11px;
+    width: 20px;
+    appearance: none;
+    background-color: hsl(6, 63%, 50%);
+    border-radius: 40%;
+    opacity: 0;
+    margin-left: 3%;
+    margin-top: -1%;
+}
+
+input:hover {
+    cursor: pointer;
+  
+}
+
+.tri-state-toggle {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 40px;
+    height: 15px;
+    align-items: center;
+    margin-top: 2.5%;
+    background-color: hsl(223, 31%, 20%);
+}
+
+#one {
+    opacity: 1;
+}
+
+
+
+.type {
+    background-color: hsl(224, 36%, 15%);
+    font-size: 2vw;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.keys {
+
+    height: cover;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    border: blue;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 5px;
+}
+
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+button .line1,
+button .line2,
+button .line3,
+button .line4,
+button .line5,
+button {
+
+    display: flex;
+    height: 30px;
+    width: 75px;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    align-items: center;
+    margin-top: 4%;
+    border: none;
+
+}
+
+/* .line1 .line2 .line3 .line4:hover.line5 {
+    color: rgb(79, 79, 100);
+    background-color: blue;
+} */
+.sol:hover {
+    color: blue ;
+    background-color: rgb(167, 167, 207);
+      
+}
+button:hover {
+    color: blue;
+    background-color: rgb(167, 167, 207);
+    
+}
+ 
+.aa{
+    background-color: hsl(225, 21%, 49%);
+    width: 40%;
+    color: white
+}
+.style{
+    background-color: hsl(6, 63%, 50%);
+    width: 40%;
+    color: white;
+}
+
+#play{
+    width: 344px;
+    height: 10vh;
+    font-style: italic;
+    background-color: hsl(224, 36%, 15%);  
+      border-radius: 4px;
+    color: white;
+font-weight: bold;
+font-size: 20px; 
+
+}
+
+#ol{
+    background-color: hsl(225, 21%, 49%); 
+    color: white;
+}
+/* .sol{
+    background-color: hsl(225, 21%, 49%); 
+    color: white; 
+} */
+@media only screen and (max-width: 800px) {
+    /* .container{
+      border: solid mediumblue; 
+   }*/
+
+#play{
+    /* border: solid red; */
+/* width: 345px; */
+}
+
+
+  } 

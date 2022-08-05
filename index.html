@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyrils calculator</title>
+    <link rel="stylesheet" href="index.css">
+<link rel="shortcut icon" href="/127.0.0.1_5501_assignment_index.html (1).png" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="header">
+            <h1 id="same" class="calc">calc</h1>
+            <div class="sub">
+                <h2 id="ame" class="theme">Theme</h2>
+                <div id="tri" class="tri-state-toggle">
+                    <input  class="button" type="radio" name="toggle" id="one" />
+                    <input  class="button" type="radio" name="toggle" id="two" />
+                    <input  class="button" type="radio" name="toggle" id="three" />
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="div">
+            <input class="type" type="button" value="399,981">
+        </div> -->
+        <input type="text" placeholder="0" value="" id="play" />
+
+        <div id="keys" class="keys">
+            <div class="line1">
+                <button class="sol" onclick="handleClick(7)" >7</button>
+                <button class="sol" onclick="handleClick(8)" >8</button>
+                <button  class="sol" onclick="handleClick(9)" >9</button>
+                <button id="ol" class="sol" onclick="deleteEach()">Del</button>
+            </div>
+            <div class="line2">
+                <button  class="sol" onclick="handleClick(4)" >4</button>
+                <button  class="sol" onclick="handleClick(5)" >5</button>
+                <button  class="sol" onclick="handleClick(6)" >6</button>
+                <button  class="sol" onclick="handleClick('+')" >+</button>
+            </div>
+            <div class="line3">
+                <button  class="sol" onclick="handleClick(1)" >1</button>
+                <button  class="sol" onclick="handleClick(2)" >2</button>
+                <button  class="sol" onclick="handleClick(3)" >3</button>
+                <button  class="sol" onclick="handleClick('-')" >-</button>
+            </div>
+            <div class="line4">
+                <button  class="sol" onclick="handleClick('.')" >.</button>
+                <button  class="sol" onclick="handleClick(0)" >0</button>
+                <button  class="sol" onclick="handleClick('/')" >/</button>
+                <button  class="sol" onclick="handleClick('*')" >x</button>
+            </div>
+
+
+            <div class="line5">
+                <button  id="ool" onclick="clearAll()" class="aa">RESET</button>
+                <button id="oll" onclick="calculateValue()" class="style" style=" background-color: red; ">=</button>
+            </div>
+        </div>
+        <h3>Produced by <span style="font-style: italic; font-weight: bold; color: orangered;"> Cyril </span>in <span style="color: orange;">FutureLabs</span> </h3>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
